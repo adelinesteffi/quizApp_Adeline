@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">வினாடி வினா</string>
+    <string name="get_the_average">சராசரியைப் பெறுங்கள்</string>
+    <string name="select_number_of_questions">கேள்விகளின் எண்ணிக்கையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="reset_saved_results">சேமிக்கப்பட்ட முடிவுகளை மீட்டமைக்கவும்</string>
+    <string name="Question1">Azure என்பது Amazon Web Services (AWS) வழங்கும் கிளவுட் கம்ப்யூட்டிங் தளமாகும்.</string>
+    <string name="Question2">Azure Virtual Machines விண்டோஸ் மற்றும் லினக்ஸ் இயங்குதளங்கள் இரண்டையும் ஆதரிக்கிறது.</string>
+    <string name="Question3">Azure Active Directory (AAD) முதன்மையாக வளாகத்தில் உள்ள தரவு மையங்களில் இயற்பியல் சேவையகங்களை நிர்வகிப்பதற்குப் பயன்படுத்தப்படுகிறது.</string>
+    <string name="Question4">Azure Blob Storage மேகக்கணியில் தொடர்புடைய தரவுத்தள சேவைகளுக்குப் பயன்படுத்தப்படுகிறது</string>
+    <string name="Question5">" Azure Synapse Analytics.(AWS) எனப்படும் நிறுவனங்களுக்கு முழுமையாக நிர்வகிக்கப்படும், திறந்த மூல பகுப்பாய்வு சேவையை Azure வழங்குகிறது."</string>
+    <string name="Question6">" Azure Functions என்பது சர்வர்லெஸ் கம்ப்யூட்டிங் சேவையாகும், இது சேவையகங்களை வழங்காமல் அல்லது நிர்வகிக்காமல் நிகழ்வு-தூண்டப்பட்ட குறியீட்டை இயக்க அனுமதிக்கிறது."</string>
+    <string name="Question7">Azure Resource Manager (ARM) Azure வளங்களின் வரிசைப்படுத்தல், மேலாண்மை மற்றும் கண்காணிப்பு ஆகியவற்றை தானியக்கமாக்க பயன்படுகிறது.</string>
+    <string name="Question8">Azure Virtual Network ஆனது உங்கள் வளாகத்தில் உள்ள சூழலில் வளங்களை ஒன்றாக இணைக்க உதவுகிறது, ஆனால் உள்ளூர் மற்றும் கிளவுட் சூழல்களில் பரவ முடியாது.</string>
+    <string name="Question9">உங்கள் Azure வளங்களின் பாதுகாப்பைக் கண்காணிக்கவும் மதிப்பிடவும் Azure Key Vault பயன்படுத்தப்படுகிறது.</string>
+    <string name="Question10">அஸூர் சென்டினல் என்பது அசூரில் உள்ள மெய்நிகர் இயந்திரங்களின் செயல்திறனை மேம்படுத்துவதற்கான ஒரு கருவியாகும்.</string>
+    <string name="trueBtn">" உண்மை"</string>
+    <string name="falseBtn">பொய்</string>
+    <string name="question_placeholder">" கேள்வி ப்ளாஸ்ஹோல்டர்"</string>
+
+</resources>

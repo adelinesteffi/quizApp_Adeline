@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/get_average"
+        android:title="@string/get_the_average" />
+    <item
+        android:id="@+id/select_questions"
+        android:title="@string/select_number_of_questions" />
+    <item
+        android:id="@+id/reset_results"
+        android:title="@string/reset_saved_results" />
+</menu>
