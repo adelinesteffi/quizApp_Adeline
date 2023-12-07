@@ -131,14 +131,19 @@ int correctAnswers=0;
             }
             else {
 
-                nextIndex++;
+               nextIndex++;
                 Log.d("testing", "currentQuestionIndex "+nextIndex);
-                ((MyApp)getApplication()).nextQuestionIndex =nextIndex;
-                Log.d("testing", "show nxt qstn else");
+               ((MyApp)getApplication()).nextQuestionIndex =nextIndex;
+               Log.d("testing", "show nxt qstn else");
 
                // questionFragment = check_fragment.newInstance(questionsList.get(nextIndex));
                 //getSupportFragmentManager().beginTransaction().add(R.id.framelayout, check_fragment).commit();
                 if (nextIndex < questionsList.size()) {
+//                    nextIndex++;
+//                    Log.d("testing", "currentQuestionIndex "+nextIndex);
+//                    ((MyApp)getApplication()).nextQuestionIndex =nextIndex;
+//                    Log.d("testing", "show nxt qstn else");
+
                     getSupportFragmentManager().beginTransaction().remove(check_fragment).commit();
                     check_fragment = check_fragment.newInstance(questionsList.get(nextIndex));
                     //  check_fragment.getView().setBackgroundColor(questionsList.get(nextIndex).getBckGrndColor());
@@ -248,7 +253,7 @@ String resultMessage="Your score is-"+correctAnswers+" out of-"+questionsList.si
            int length = getScores.size();
            Log.d("testing", "average in save " + average + " out of " + length + " attempts");
 
-           Toast.makeText(this, "You have answered " + correctAnswers + " question correctly out of " + questionsList.size(), Toast.LENGTH_LONG).show();
+           Toast.makeText(this, "average is  " + average + " out of " + length + " attempts" + questionsList.size(), Toast.LENGTH_LONG).show();
 
        }
        else  if(item.getItemId() == R.id.select_questions) {
